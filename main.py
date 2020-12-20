@@ -24,9 +24,21 @@ def xrp_long_investment():
     invest_money    = 5000
     long_investment(market, invest_money)
 
+def xlm_long_investment():
+    market          = "XLM/KRW"
+    invest_money    = 5000
+    long_investment(market, invest_money)
+
+def bch_long_investment():
+    market          = "BCH/KRW"
+    invest_money    = 5000
+    long_investment(market, invest_money)
+
 if __name__ == "__main__":
-    schedule.every().day.at("14:01").do(klay_long_investment)
-    schedule.every().day.at("15:04").do(xrp_long_investment)
+    schedule.every().day.at("09:05").do(klay_long_investment)
+    schedule.every().day.at("09:06").do(xrp_long_investment)
+    schedule.every().day.at("09:07").do(xlm_long_investment)
+    schedule.every().day.at("09:08").do(bch_long_investment)
 
     while True:
         schedule.run_pending()
