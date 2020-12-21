@@ -16,22 +16,22 @@ def long_investment(market, invest_money):
 
 def klay_long_investment():
     market          = "KLAY/KRW"
-    invest_money    = 3000
+    invest_money    = 4000
     long_investment(market, invest_money)
 
 def xrp_long_investment():
     market          = "XRP/KRW"
-    invest_money    = 3000
+    invest_money    = 4000
     long_investment(market, invest_money)
 
 def xlm_long_investment():
     market          = "XLM/KRW"
-    invest_money    = 3000
+    invest_money    = 4000
     long_investment(market, invest_money)
 
 def bch_long_investment():
     market          = "BCH/KRW"
-    invest_money    = 3000
+    invest_money    = 4000
     long_investment(market, invest_money)
 
 if __name__ == "__main__":
