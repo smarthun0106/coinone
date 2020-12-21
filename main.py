@@ -13,7 +13,6 @@ def long_investment(market, invest_money):
     amount = round(invest_money / ask_price, 4)
     buy = trading.limit_buy(amount=amount, price=ask_price)
 
-
 def klay_long_investment():
     market          = "KLAY/KRW"
     invest_money    = 4000
