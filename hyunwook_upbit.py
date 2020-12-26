@@ -3,8 +3,8 @@ import schedule
 import time
 
 def long_investment(market, invest_money):
-    access          = "lpeP99y29PyxHNoxBpicfe5VP6dVlpORPyAP7xeV"
-    secret          = "ST4sIxEjaXx9Nhz3eUUEInIZWCY103WxkfipiyqR"
+    access          = ""
+    secret          = ""
     market          = market
     invest_money    = invest_money
 
